@@ -1,0 +1,44 @@
+body{
+  padding:0;
+  margin: 0;
+  background-color:bisque;
+}
+form {
+  margin-top: 10%;
+  text-align: center;
+}
+.title {
+  color: grey;
+  margin-top: 25px;
+  
+}
+
+.newTask {
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 30px;
+
+}
+
+.done {
+  text-decoration:line-through;
+  text-decoration-color: red;
+
+}
+
+.list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.checkbox {
+  margin: 15px ;
+
+}
+.btn-dark{
+  margin-right: 10px;
+
+}
+ 
